@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.2
+- Restored clean flat logo and marketplace icon (no AI grain/blur)
+- Clear marketplace descriptions (EN/NL) in `marketplace/`
+- Updated `package.json` short description for VS Code and Open VSX search
+
 ## 0.4.1
 - Multi-IDE install script (`install-all-ides.ps1`) for VS Code, Cursor, Windsurf, VSCodium, Trae, Antigravity
 - Updated logo (`assets/logo.svg`) and marketplace icon

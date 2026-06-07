@@ -2,7 +2,7 @@
 
 Premium branded themes for **VS Code**, **Cursor**, **Windsurf**, **VSCodium**, **Trae**, **Antigravity IDE**, and other VS Code-compatible editors — 12 variants with deep syntax layers and consistent FectionLabs chrome.
 
-See **[COMPATIBLE-EDITORS.md](./COMPATIBLE-EDITORS.md)** for per-editor paths and install methods.
+See **[COMPATIBLE-EDITORS.md](./COMPATIBLE-EDITORS.md)** for supported editors.
 
 ## Brand signature
 | Token | Hex | Usage |
@@ -27,28 +27,14 @@ See **[COMPATIBLE-EDITORS.md](./COMPATIBLE-EDITORS.md)** for per-editor paths an
 | **Blossom** | Light | Rose & burgundy pop |
 | **Glacier** | Light | Icy blue clarity |
 
-## Install (all IDEs on Windows)
-```powershell
-git clone https://github.com/ApiCentraal/FectionLabs-Themepack.git
-cd FectionLabs-Themepack
-.\install-all-ides.ps1
-```
+## Install
 
-Cursor only:
-```powershell
-.\install-cursor.ps1
-```
-
-Reload each editor: **Developer: Reload Window** → `Ctrl+K Ctrl+T`
-
-```json
-"workbench.colorTheme": "FectionLabs Theme Bright"
-```
-
-## Settings
-- `fectionlabs.enableCustomCursor`
-- `fectionlabs.enableLineHighlight`
+Install from the **Visual Studio Marketplace** or **Open VSX**, then press `Ctrl+K` → `Ctrl+T` and pick a **FectionLabs Theme …** variant.
 
 ## Changelog
 
 See [CHANGELOG.md](./CHANGELOG.md).
+
+## Marketplace copy
+
+Publisher descriptions (EN/NL): [`marketplace/`](./marketplace/)

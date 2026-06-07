@@ -1,8 +1,8 @@
 {
   "name": "fectionlabs-theme",
   "displayName": "FectionLabs Themes",
-  "description": "FectionLabs branded color themes — 12 variants for VS Code, Cursor, Windsurf, VSCodium, Trae, Antigravity IDE, and other VS Code-compatible editors.",
-  "version": "0.4.1",
+  "description": "Twelve branded editor themes for VS Code, Cursor, Windsurf, VSCodium, Trae & Antigravity. Champagne-gold chrome, deep syntax, readable Bright variant. Free MIT.",
+  "version": "0.4.2",
   "publisher": "fectionlabs",
   "license": "MIT",
   "icon": "icon.png",

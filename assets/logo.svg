@@ -1,27 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="FectionLabs">
   <defs>
-    <linearGradient id="fl-bg" x1="16" y1="16" x2="240" y2="240" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#011E33"/>
-      <stop offset="45%" stop-color="#023556"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#023556"/>
       <stop offset="100%" stop-color="#034972"/>
     </linearGradient>
-    <linearGradient id="fl-tri" x1="128" y1="64" x2="128" y2="196" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#5EEAD4"/>
-      <stop offset="55%" stop-color="#0D9488"/>
-      <stop offset="100%" stop-color="#065F46"/>
-    </linearGradient>
-    <filter id="fl-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-  <rect width="256" height="256" rx="52" fill="url(#fl-bg)"/>
-  <rect x="28" y="32" width="200" height="12" rx="6" fill="#D4A853"/>
-  <rect x="28" y="32" width="200" height="4" rx="2" fill="#F0D78C" opacity="0.55"/>
-  <path d="M128 68 L204 200 H52 Z" fill="url(#fl-tri)" filter="url(#fl-glow)"/>
-  <path d="M128 86 L182 188 H74 Z" fill="#5EEAD4" opacity="0.22"/>
-  <text x="128" y="232" text-anchor="middle" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC" letter-spacing="3">FL</text>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <rect x="32" y="36" width="192" height="10" rx="5" fill="#D4A853"/>
+  <path d="M128 72 L196 196 H60 Z" fill="#0D9488" opacity="0.95"/>
+  <path d="M128 88 L176 184 H80 Z" fill="#5EEAD4" opacity="0.35"/>
+  <text x="128" y="228" text-anchor="middle" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC" letter-spacing="3">FL</text>
 </svg>

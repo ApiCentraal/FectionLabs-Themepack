@@ -1,0 +1,1 @@
+Twelve branded editor themes for VS Code, Cursor, Windsurf, VSCodium, Trae & Antigravity. Champagne-gold chrome, deep syntax, readable Bright variant. Free MIT.
