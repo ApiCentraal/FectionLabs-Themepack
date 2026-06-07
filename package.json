@@ -1,0 +1,71 @@
+{
+  "name": "fectionlabs-theme",
+  "displayName": "FectionLabs Themes",
+  "description": "FectionLabs branded color themes — 12 variants for VS Code, Cursor, Windsurf, VSCodium, Trae, Antigravity IDE, and other VS Code-compatible editors.",
+  "version": "0.4.1",
+  "publisher": "fectionlabs",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApiCentraal/FectionLabs-Themepack.git"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark",
+    "light",
+    "green",
+    "branded",
+    "fectionlabs",
+    "cursor",
+    "windsurf",
+    "vscodium",
+    "trae",
+    "antigravity",
+    "openvsx",
+    "vscode"
+  ],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "extensionKind": ["ui", "workspace"],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": { "supported": true }
+  },
+  "contributes": {
+    "themes": [
+      { "label": "FectionLabs Theme Dark", "uiTheme": "vs-dark", "path": "./fectionlabs-dark-theme.json" },
+      { "label": "FectionLabs Theme Light", "uiTheme": "vs", "path": "./fectionlabs-light-theme.json" },
+      { "label": "FectionLabs Theme Bright", "uiTheme": "vs", "path": "./fectionlabs-bright-theme.json" },
+      { "label": "FectionLabs Theme Verde", "uiTheme": "vs-dark", "path": "./fectionlabs-verde-theme.json" },
+      { "label": "FectionLabs Theme Midnight", "uiTheme": "vs-dark", "path": "./fectionlabs-midnight-theme.json" },
+      { "label": "FectionLabs Theme Aurora", "uiTheme": "vs-dark", "path": "./fectionlabs-aurora-theme.json" },
+      { "label": "FectionLabs Theme Sand", "uiTheme": "vs", "path": "./fectionlabs-sand-theme.json" },
+      { "label": "FectionLabs Theme Noir", "uiTheme": "vs-dark", "path": "./fectionlabs-noir-theme.json" },
+      { "label": "FectionLabs Theme Ember", "uiTheme": "vs-dark", "path": "./fectionlabs-ember-theme.json" },
+      { "label": "FectionLabs Theme Cobalt", "uiTheme": "vs-dark", "path": "./fectionlabs-cobalt-theme.json" },
+      { "label": "FectionLabs Theme Blossom", "uiTheme": "vs", "path": "./fectionlabs-blossom-theme.json" },
+      { "label": "FectionLabs Theme Glacier", "uiTheme": "vs", "path": "./fectionlabs-glacier-theme.json" }
+    ],
+    "configuration": {
+      "title": "FectionLabs",
+      "properties": {
+        "fectionlabs.enableCustomCursor": {
+          "type": "boolean",
+          "default": true,
+          "description": "Override cursor color when a FectionLabs theme is active."
+        },
+        "fectionlabs.enableLineHighlight": {
+          "type": "boolean",
+          "default": true,
+          "description": "Override current-line highlight when a FectionLabs theme is active."
+        }
+      }
+    }
+  }
+}
