@@ -1,0 +1,13 @@
+.git
+.github
+**/.git/**
+**/.DS_Store
+**/node_modules/**
+**/*.vsix
+.cursor/**
+marketing/**
+PRODUCT.md
+install-cursor.ps1
+install-all-ides.ps1
+assets/icon-128.png
+vscode-package.json
