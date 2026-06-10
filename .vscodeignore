@@ -1,0 +1,9 @@
+.git
+.gitignore
+.github
+**/.git/**
+**/.DS_Store
+**/node_modules/**
+**/*.vsix
+COMPATIBLE-EDITORS.md
+assets/**
